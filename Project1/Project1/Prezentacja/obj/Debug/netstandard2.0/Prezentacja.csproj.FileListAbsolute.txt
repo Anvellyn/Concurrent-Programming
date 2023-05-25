@@ -1,0 +1,5 @@
+C:\Users\patry\Desktop\studia\wspolbiegi\projekt0\Programowanie-Wspolbiezne\Project1\Project1\Prezentacja\obj\Debug\netstandard2.0\Prezentacja.csproj.AssemblyReference.cache
+C:\Users\patry\Desktop\studia\wspolbiegi\projekt0\Programowanie-Wspolbiezne\Project1\Project1\Prezentacja\obj\Debug\netstandard2.0\Prezentacja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patry\Desktop\studia\wspolbiegi\projekt0\Programowanie-Wspolbiezne\Project1\Project1\Prezentacja\obj\Debug\netstandard2.0\Prezentacja.AssemblyInfoInputs.cache
+C:\Users\patry\Desktop\studia\wspolbiegi\projekt0\Programowanie-Wspolbiezne\Project1\Project1\Prezentacja\obj\Debug\netstandard2.0\Prezentacja.AssemblyInfo.cs
+C:\Users\patry\Desktop\studia\wspolbiegi\projekt0\Programowanie-Wspolbiezne\Project1\Project1\Prezentacja\obj\Debug\netstandard2.0\Prezentacja.csproj.CoreCompileInputs.cache

@@ -1,0 +1,60 @@
+﻿<Window x:Class="View.MainWindow"
+	   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	   xmlns:vm1="clr-namespace:ViewModel;assembly=ViewModel"
+	   mc:Ignorable="d"
+	   Title="Concurrent programming"
+	   Height="700"
+	   Width="1000"
+		  Background="#222"
+	   WindowState="Maximized">
+	<Window.DataContext>
+		<vm1:ViewModelMainWindow/>
+	</Window.DataContext>
+	<StackPanel Orientation="Vertical">
+
+		<Canvas Width="536" Height="684">
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="29*"/>
+					<RowDefinition Height="39*"/>
+				</Grid.RowDefinitions>
+				<!-- Stop button -->
+				<Button x:Name="stopButton" Content="STOP" FontSize="25" Margin="-170,218,850,77" IsEnabled="{Binding State}" Command="{Binding StopButtonClick}" />
+				<!-- Start button -->
+				<Button x:Name="startButton" Content="START" FontSize="25" Margin="-170,118,850,177" IsEnabled="{Binding State}" Command="{Binding StartButtonClick}" />
+				<Label Height="50" FontSize="25" Foreground="LightGray" Margin="-170,49,850,454" Content="{Binding ErrorMessage}" Grid.Row="1"/>
+				<TextBox IsEnabled="{Binding State}" Name="intputText" Text="{Binding InputText}" FontSize="30" TextAlignment="Center" Height="50"  Width="240" BorderBrush="White"  BorderThickness="2" Margin="-170,318,850,535" Grid.RowSpan="2"/>
+
+				<Grid x:Name="board" Width="580" Height="580" Margin="80,40,160,257" Grid.RowSpan="2" >
+
+					<Border BorderBrush="Gray" Background="LightGray" BorderThickness="3">
+						<ItemsControl ItemsSource="{Binding Balls}">
+							<ItemsControl.ItemsPanel>
+								<ItemsPanelTemplate>
+									<Canvas Height="575" Width="575" />
+								</ItemsPanelTemplate>
+							</ItemsControl.ItemsPanel>
+
+							<ItemsControl.ItemTemplate>
+								<DataTemplate>
+									<Ellipse Width= "{Binding Diameter}" Height="{Binding Diameter}" Fill="MediumOrchid" Stroke="Black" StrokeThickness="1"/>
+								</DataTemplate>
+							</ItemsControl.ItemTemplate>
+
+							<ItemsControl.ItemContainerStyle>
+								<Style TargetType="ContentPresenter">
+									<Setter  Property="Canvas.Top" Value="{Binding Left}"/>
+									<Setter Property="Canvas.Left" Value="{Binding Top}"/>
+								</Style>
+							</ItemsControl.ItemContainerStyle>
+						</ItemsControl>
+					</Border>
+				</Grid>
+			</Grid>
+
+		</Canvas>
+	</StackPanel>
+</Window>

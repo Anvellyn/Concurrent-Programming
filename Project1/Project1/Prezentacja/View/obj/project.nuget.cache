@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pggk+dMTMs77tXEA3/i94gOYlPI1WqZbY7Mxh8Lx7MRi7czlS14YlG25oWRvkkGwM11fBxysZZZ5NyLYxBNCGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\patry\\Desktop\\studia\\wspolbiegi\\projekt0\\Programowanie-Wspolbiezne\\final\\Project1\\Project1\\Prezentacja\\View\\View.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\patry\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

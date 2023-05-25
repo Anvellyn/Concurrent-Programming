@@ -1,0 +1,11 @@
+{
+    "profiles": {
+      "Dane": {
+        "commandName": "Project"
+      },
+      "Profil 1": {
+        "commandName": "Executable",
+        "executablePath": "C:\\Users\\patry\\Desktop\\studia\\wspolbiegi\\projekt0\\Programowanie-Wspolbiezne\\Project1\\Project1\\Project1\\Prezentacja\\View\\bin\\Debug\\net6.0-windows\\View.exe"
+      }
+    }
+  }

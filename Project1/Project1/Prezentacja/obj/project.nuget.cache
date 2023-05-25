@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EDEcJIlWDIOsGnnKQgaYBX5dyCyxIvWUEgXIxjlFoLybYK1RICdcY8FGXeewoWXI7KmXQSXOWllV/YzOelzWNA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\patry\\Desktop\\studia\\wspolbiegi\\projekt0\\Programowanie-Wspolbiezne\\Project1\\Project1\\Prezentacja\\Prezentacja.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\patry\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\patry\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
